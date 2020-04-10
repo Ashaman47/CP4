@@ -17,7 +17,7 @@ mongoose.connect('mongodb://localhost:27017/CP4', {
 // Configure multer so that it will upload to '../front-end/public/images'
 const multer = require('multer')
 const upload = multer({
-  dest: '../front-end/public/images/',
+  dest: '../var/www/CP4.ryankhill.me/images/',
   limits: {
     fileSize: 10000000
   }
